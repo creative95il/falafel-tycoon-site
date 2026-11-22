@@ -7,40 +7,142 @@
 <style>
   body { font-family: -apple-system, system-ui, "Segoe UI", Arial, sans-serif; background: #FFE7B8; color: #3a2a12; margin: 0; padding: 24px 16px; line-height: 1.6; }
   main { max-width: 680px; margin: 0 auto; background: #fff8ea; border-radius: 16px; padding: 24px; }
-  a { color: #b5560f; }
-  section + section { border-top: 1px solid #ecd9b0; margin-top: 24px; padding-top: 16px; }
+  a { color: #8a4a12; }
+  h1 { line-height: 1.25; }
+  h2 { font-size: 18px; margin: 22px 0 4px; }
+  ul { padding-inline-start: 22px; }
+  .short { background: #ffedc4; border-radius: 12px; padding: 10px 14px; }
+  section + section { border-top: 1px solid #ecd9b0; margin-top: 28px; padding-top: 16px; }
 </style>
 </head>
 <body>
 <main>
-  <section>
-    <h1>Privacy Policy</h1>
-    <p><em>Falafel Tycoon. Last updated: November 13, 2026.</em></p>
-    <p>Falafel Tycoon does not collect personal information such as your name, email, contacts or location, and does not sell or share data with anyone.</p>
-    <ul>
-      <li>There are no accounts, no sign-in and no ads.</li>
-      <li>The game collects anonymous usage data (play time, game progress and when the game was last used) only to understand how the game is played and to improve it. This data is not linked to your identity, is not sold, is not used for advertising and is not used to track you.</li>
-      <li>Leaderboard (optional): if you choose a nickname, it is shown to all players next to your game results (such as perfect dishes, dishes served and best shift). Nicknames are filtered for offensive words. You do not need to use your real name, and you can change your nickname at any time. To have your nickname and results removed, email us.</li>
-      <li>Your game progress is saved only on your own device. Deleting the app deletes it.</li>
-      <li>When the app starts it checks for a game update from our update server (Expo). This request contains only technical details needed to deliver the right update, such as the app version and platform. It is not linked to you and is not used to identify or track you.</li>
-    </ul>
-    <p>The game is suitable for all ages and does not knowingly collect information from children or anyone else.</p>
-    <p>Questions: <a href="mailto:fitosi1995@gmail.com">fitosi1995@gmail.com</a></p>
-  </section>
-  <section dir="rtl" lang="he">
-    <h1>מדיניות פרטיות</h1>
-    <p><em>דוכן פלאפל. עודכן לאחרונה: 13 בנובמבר 2026.</em></p>
-    <p>המשחק אינו אוסף מידע אישי כמו שם, מייל, אנשי קשר או מיקום, ואינו מוכר או משתף נתונים עם אף אחד.</p>
-    <ul>
-      <li>אין חשבונות, אין הרשמה ואין פרסומות.</li>
-      <li>המשחק אוסף נתוני שימוש אנונימיים (משך משחק, התקדמות במשחק ומועד שימוש אחרון) אך ורק כדי להבין איך משחקים בו ולשפר אותו. הנתונים אינם מקושרים לזהותכם, אינם נמכרים, אינם משמשים לפרסום ואינם משמשים למעקב.</li>
-      <li>טבלת שיאים (לא חובה): אם בוחרים כינוי, הוא מוצג לכל השחקנים ליד תוצאות המשחק שלכם (כמו מנות מושלמות, סך הכל מנות והמשמרת הכי טובה). הכינויים מסוננים ממילים פוגעניות. אין צורך להשתמש בשם האמיתי, ואפשר לשנות את הכינוי בכל זמן. כדי למחוק את הכינוי והתוצאות, כתבו לנו במייל.</li>
-      <li>ההתקדמות במשחק נשמרת רק במכשיר שלכם. מחיקת האפליקציה מוחקת אותה.</li>
-      <li>בפתיחת האפליקציה היא בודקת אם יש עדכון למשחק בשרת העדכונים (Expo). הבקשה כוללת רק פרטים טכניים הדרושים כדי לספק את העדכון הנכון, כמו גרסת האפליקציה וסוג המכשיר. היא אינה מקושרת אליכם ואינה משמשת לזיהוי או למעקב.</li>
-    </ul>
-    <p>המשחק מתאים לכל הגילאים ואינו אוסף ביודעין מידע מילדים או מכל אדם אחר.</p>
-    <p>שאלות: <a href="mailto:fitosi1995@gmail.com">fitosi1995@gmail.com</a></p>
-  </section>
+<section dir="rtl" lang="he">
+  <p><a href="#english" lang="en" dir="ltr">English</a></p>
+  <h1>מדיניות פרטיות</h1>
+  <p><em>דוכן פלאפל (Falafel Tycoon), מאת Matan Fitosi. עודכן לאחרונה: 22 בנובמבר 2026.</em></p>
+  <p class="short"><strong>בקצרה:</strong> המשחק אוסף נתוני משחק. אם בוחרים להתחבר עם Apple, אנחנו מקבלים ושומרים פרטים אישיים: מזהה קבוע של החשבון, וכל נתוני המשחק שמקושרים אליו. אנחנו לא מבקשים שם אמיתי או אימייל, לא מציגים פרסומות ולא מוכרים נתונים.</p>
+
+  <h2>מה נאסף מכל שחקן</h2>
+  <p>הטלפון יוצר מספר שחקן אקראי. יחד איתו נשמרים בשרת שלנו:</p>
+  <ul>
+    <li>הכינוי שבחרתם לדוכן. אין צורך בשם אמיתי.</li>
+    <li>התקדמות: יום, רמה, ניסיון, כסף במשחק, מוניטין, סניפים, עובדים, שדרוגים ושיאים.</li>
+    <li>שימוש: מועד ההתחלה (או התקנת האפליקציה), כניסה ראשונה ואחרונה, אם אתם במשחק עכשיו, מספר הכניסות, משך המשחק ותוצאות כל משמרת.</li>
+    <li>חברים ובקשות חברות, מי הזמין אתכם, מתנות, ותוצאות ומהלך של אתגרים.</li>
+    <li>גרסת האפליקציה ושפת המשחק.</li>
+    <li>המפתח יכול להוסיף לשחקן תווית פנימית לצורך ניהול ותמיכה.</li>
+  </ul>
+
+  <h2>מה נוסף כשמתחברים עם Apple</h2>
+  <p>ההתחברות היא לבחירתכם, ואפשר לשחק בלעדיה. אם מתחברים:</p>
+  <ul>
+    <li>אנחנו מקבלים מ-Apple אסימון חתום, בודקים אותו ושומרים ממנו מזהה אישי קבוע של החשבון, ואת מועד ההתחברות.</li>
+    <li>המזהה מקושר למספר השחקן. לכן <strong>כל הנתונים שברשימה למעלה הם פרטים אישיים המקושרים אליכם</strong>.</li>
+    <li>נשמרים בשרת עותק של המשחק, עד 5 גיבויים קודמים שלו, ומספר אקראי של הטלפון שממנו המשחק נשמר.</li>
+    <li>אנחנו לא מבקשים מ-Apple שם או אימייל, לא קוראים ולא שומרים אותם. הסיסמה לא מגיעה אלינו. אסימוני Apple לא נשמרים בשרת.</li>
+  </ul>
+
+  <h2>כתובת רשת ונתונים טכניים</h2>
+  <ul>
+    <li>כל בקשה לשרת מגיעה עם כתובת רשת (IP). יומנים טכניים אצל Cloudflare עשויים לכלול אותה, את כתובת הבקשה (ובה לפעמים מספר השחקן) ופרטים טכניים. הם נשמרים עד 7 ימים.</li>
+    <li>כשפותחים קישור הזמנה נשמר גיבוב (hash) של כתובת הרשת עם קוד המזמין, כדי לזכות במתנה. הוא תקף עד יומיים ונמחק בניקוי האוטומטי שאחריהם. בפתיחת המשחק כתובת הרשת נבדקת מולו.</li>
+    <li>שרת העדכונים של Expo מקבל בכל בדיקת עדכון כתובת רשת, מזהה התקנה אקראי, גרסה וסוג מערכת.</li>
+  </ul>
+
+  <h2>למה משתמשים בנתונים</h2>
+  <p>כדי להפעיל את המשחק, לשמור ולהחזיר אותו בטלפון אחר, להציג טבלאות, לאפשר חברים ואתגרים, למנוע רמאות, לתת תמיכה, ולהבין איך משחקים כדי לשפר. ההסכמה ניתנת בשמירת הכינוי, ולהתחברות עם Apple בלחיצה על כפתור ההתחברות. לא משתמשים בנתונים לפרסום או למעקב בין אפליקציות ואתרים.</p>
+
+  <h2>מי רואה את הנתונים</h2>
+  <ul>
+    <li>כל השחקנים: כינוי, קוד קצר ותוצאות בטבלאות.</li>
+    <li>חברים: גם רמה, יום, סניפים וערים, רצף ימים, אם אתם במשחק ומתי נראיתם לאחרונה, ותוצאות ומהלך של אתגרים ביניכם.</li>
+    <li>המפתח: כל הנתונים שבשרת, לניהול ולתמיכה.</li>
+    <li>ספקים שפועלים עבורנו: <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare</a> (שרת ומסד נתונים) ו-<a href="https://expo.dev/privacy">Expo</a> (עדכונים). אנחנו דורשים שהנתונים יקבלו אצל ספקים הגנה זהה או שוות ערך למתואר כאן. המידע עשוי להישמר מחוץ לישראל.</li>
+    <li>Apple מטפלת בהתחברות לפי <a href="https://www.apple.com/legal/privacy/">מדיניות הפרטיות שלה</a>.</li>
+  </ul>
+  <p>אנחנו לא מוכרים נתונים ולא מעבירים אותם למפרסמים.</p>
+
+  <h2>כמה זמן נשמר</h2>
+  <p>נתוני השחקן והחשבון נשמרים עד שמוחקים אותם. הסרת האפליקציה מהטלפון לבדה לא מוחקת אותם מהשרת. גיבויים טכניים של מסד הנתונים נשמרים עד 30 יום.</p>
+
+  <h2>מחיקה, ביטול הסכמה ובקשות</h2>
+  <ul>
+    <li><strong>מחיקת הכול:</strong> מגרסה 1.0.6, בהגדרות המשחק: "מחיקת החשבון והנתונים". המחיקה מיידית וכוללת את החשבון, העותקים, הכינוי, השיאים, החברים והאתגרים. נשאר רק גיבוב חד-כיווני של מספר השחקן האקראי, כדי שהוא לא ייווצר מחדש. אצל מי שהזמנתם נשאר רק סימון שנוצל קוד, בלי לציין של מי.</li>
+    <li><strong>בגרסאות קודמות, או אם אין לכם גישה למשחק:</strong> כתבו לנו במייל עם הכינוי והקוד הקצר. נאשר כשנסיים, תוך 30 יום לכל היותר.</li>
+    <li><strong>ניתוק Apple:</strong> בהגדרות האייפון, השם שלכם, "התחברות עם Apple", Falafel Tycoon, ושם מפסיקים את השימוש. מגרסה 1.0.6, כשהמשחק מזהה ניתוק הוא מוחק את מזהה Apple ואת העותקים השמורים. כדי למחוק גם את שאר הנתונים משתמשים במחיקה שבמשחק. אם במחיקה לא הצלחנו לנתק אצל Apple אוטומטית, המשחק יבקש מכם לעשות זאת כך.</li>
+    <li><strong>עיון, תיקון וביטול הסכמה:</strong> אפשר לפנות אלינו במייל. את הכינוי אפשר לשנות במשחק.</li>
+  </ul>
+
+  <h2>ילדים</h2>
+  <p>המשחק מתאים לכל הגילאים, ואוסף מכל השחקנים את הנתונים שתוארו כאן. אנחנו לא שואלים גיל. הורים יכולים לפנות אלינו כדי לעיין בנתוני ילדם או למחוק אותם. מומלץ שילדים לא ישתמשו בשמם האמיתי בכינוי.</p>
+
+  <h2>שינויים ויצירת קשר</h2>
+  <p>שינויים יפורסמו בעמוד הזה עם תאריך. שאלות ובקשות: <a href="mailto:fitosi1995@gmail.com">fitosi1995@gmail.com</a></p>
+</section>
+
+<section id="english" dir="ltr" lang="en">
+  <h1>Privacy Policy</h1>
+  <p><em>Falafel Tycoon, by Matan Fitosi. Last updated: November 22, 2026.</em></p>
+  <p class="short"><strong>In short:</strong> the game collects play data. If you choose to sign in with Apple, we receive and keep personal data: a lasting ID of the account, and all the play data linked to it. We do not ask for your real name or email, show no ads and do not sell data.</p>
+
+  <h2>What is collected from every player</h2>
+  <p>The phone makes a random player number. With it, our server keeps:</p>
+  <ul>
+    <li>The nickname you chose for your stand. No real name is needed.</li>
+    <li>Progress: day, level, experience, game money, reputation, branches, staff, upgrades and records.</li>
+    <li>Use: when you started (or installed the app), first and last visit, whether you are playing now, number of visits, play time and each shift's results.</li>
+    <li>Friends and friend requests, who invited you, gifts, and the results and course of duels and challenges.</li>
+    <li>The app version and the game's language.</li>
+    <li>The developer may add an internal label to a player, for administration and support.</li>
+  </ul>
+
+  <h2>What is added when you sign in with Apple</h2>
+  <p>Signing in is your choice, and you can play without it. If you sign in:</p>
+  <ul>
+    <li>We receive a signed token from Apple, check it, and keep from it a lasting personal ID of the account, and the time you signed in.</li>
+    <li>That ID is linked to the player number. <strong>All the data listed above is therefore personal data linked to you.</strong></li>
+    <li>Our server keeps a copy of the game, up to 5 earlier backups of it, and a random number of the phone the game is saved from.</li>
+    <li>We do not ask Apple for your name or email, and do not read or keep them. Your password never reaches us. Apple's tokens are not stored on our server.</li>
+  </ul>
+
+  <h2>Network address and technical data</h2>
+  <ul>
+    <li>Every request reaches the server with a network (IP) address. Technical logs at Cloudflare may include it, the request's address (which sometimes holds the player number) and technical details. They are kept up to 7 days.</li>
+    <li>Opening an invite link keeps a hash of the network address with the inviter's code, to award the gift. It is valid for up to two days and removed by the automatic cleanup that follows. When the game opens, the network address is checked against it.</li>
+    <li>Expo's update server receives, with each update check, a network address, a random installation ID, the version and the type of system.</li>
+  </ul>
+
+  <h2>Why the data is used</h2>
+  <p>To run the game, keep it and bring it back on another phone, show leaderboards, enable friends and duels, prevent cheating, give support, and understand how the game is played so it can improve. Consent is given by saving the nickname and, for Sign in with Apple, by pressing the sign-in button. The data is not used for advertising or for tracking across apps and websites.</p>
+
+  <h2>Who sees the data</h2>
+  <ul>
+    <li>All players: nickname, short code and leaderboard results.</li>
+    <li>Friends: also level, day, branches and cities, day streak, whether you are playing and when you were last seen, and the results and course of duels between you.</li>
+    <li>The developer: all data on the server, for administration and support.</li>
+    <li>Providers working for us: <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare</a> (server and database) and <a href="https://expo.dev/privacy">Expo</a> (updates). We require that providers give the data the same or equal protection as described here. Data may be stored outside your country.</li>
+    <li>Apple handles sign-in under <a href="https://www.apple.com/legal/privacy/">its privacy policy</a>.</li>
+  </ul>
+  <p>We do not sell data or pass it to advertisers.</p>
+
+  <h2>How long it is kept</h2>
+  <p>Player and account data is kept until it is deleted. Removing the app from the phone does not by itself delete it from the server. Technical database backups are kept up to 30 days.</p>
+
+  <h2>Deletion, withdrawing consent and requests</h2>
+  <ul>
+    <li><strong>Delete everything:</strong> from version 1.0.6, in the game's Settings: "Delete account and data". It is immediate and covers the account, its copies, the nickname, records, friends and duels. Only a one-way hash of the random player number remains, so it cannot be created again. For players you invited, only a mark that a code was used remains, without saying whose.</li>
+    <li><strong>In earlier versions, or without access to the game:</strong> email us your nickname and short code. We will confirm when done, within 30 days at most.</li>
+    <li><strong>Disconnecting Apple:</strong> iPhone Settings, your name, "Sign in with Apple", Falafel Tycoon, and stop using it there. From version 1.0.6, when the game notices this it deletes the Apple ID link and the kept copies. To delete the rest as well, use deletion in the game. If deletion could not end the link at Apple automatically, the game asks you to do so this way.</li>
+    <li><strong>Access, correction and withdrawing consent:</strong> email us. You can change the nickname in the game.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>The game is suitable for all ages and collects the data described here from all players. We do not ask for age. Parents may contact us to see or delete their child's data. We recommend that children do not use their real name as a nickname.</p>
+
+  <h2>Changes and contact</h2>
+  <p>Changes will be published on this page with their date. Questions and requests: <a href="mailto:fitosi1995@gmail.com">fitosi1995@gmail.com</a></p>
+</section>
 </main>
 </body>
 </html>
